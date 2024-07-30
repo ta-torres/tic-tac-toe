@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <main class="page">
+        <header class="header">
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <section class="turn">
+            <p class="turn-order">X</p>
+            <p>Turn</p>
+        </section>
+        <section class="game-container">
+            <section class="board">
+                <div class="cell" role="button" data-index="0"></div>
+                <div class="cell" role="button" data-index="1"></div>
+                <div class="cell" role="button" data-index="2"></div>
+                <div class="cell" role="button" data-index="3"></div>
+                <div class="cell" role="button" data-index="4"></div>
+                <div class="cell" role="button" data-index="5"></div>
+                <div class="cell" role="button" data-index="6"></div>
+                <div class="cell" role="button" data-index="7"></div>
+                <div class="cell" role="button" data-index="8"></div>
+            </section>
+
+            <section class="game-over disabled">
+                <p id="game-over-text"></p>
+                <p id="result"></p>
+                <button id="reset-btn">Reset Game</button>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
